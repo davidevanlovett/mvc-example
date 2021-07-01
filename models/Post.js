@@ -4,9 +4,11 @@ const sequelize = require("../connection/connection");
 class Post extends Model {};
 
 Post.init({
-
+	body: {
+		type: DataTypes.TEXT
+	}
 },{
-
+	sequelize
 });
 
 
