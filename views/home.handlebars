@@ -1,1 +1,12 @@
-<h1>Example App: Home</h1>
+{{> hero}}
+
+<div>
+	{{#each threads as |thread|}}
+	<div class="card" style="width: 18rem;">
+		<div class="card-body">
+			<h5 class="card-title">{{thread.title}}</h5>
+			<a href='/threads/{{thread.id}}' class="btn btn-primary">Join the Conversation</a>
+		</div>
+	</div>
+	{{/each}}
+</div>

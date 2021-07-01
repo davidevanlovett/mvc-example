@@ -1,0 +1,6 @@
+<div>
+	<h2>Thread: {{thread.title}}</h2>
+	{{#each posts}}
+		<li>{{this.body}} by <strong>{{this.User.email}}</strong></li>
+	{{/each}}
+</div>
