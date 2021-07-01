@@ -12,6 +12,7 @@
 
 > Clone the repository
 > npm install
+> Run the db/schema.sql file to generate the database for sequelize to setup.
 > Create .env file and place your configuration in that new file.
 
 
